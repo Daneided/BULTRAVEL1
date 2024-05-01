@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.bg {
+  background-image: url("./Image/bg-2.png");
+  height: 547px;
+  background-size: cover;
+  padding: 25px 0px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 90px;
+}
+nav > ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  gap: 80px;
+}
+nav > ul > li > a {
+  color: #ffa500;
+}
+.Home {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #112f3e;
+  height: 33px;
+  width: 124px;
+  border-radius: 8px;
+}
+.Home > a {
+  color: #ffffff;
+}
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 160px;
+  color: #ffffff;
+}
+
+.main-container > h1 {
+  font-weight: 700;
+  font-size: 64px;
+}
+
+/* ! */
+main {
+  padding: 52px;
+}
+.main-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 0px 55px; */
+  margin: 40px 0px;
+}
+.main-text > p {
+  width: 521px;
+  line-height: 40px;
+  font-weight: bold;
+}
+.main-text > h3 > a {
+  color: orange;
+}
+.fourpersonDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fourperson {
+  height: 472px;
+}
+.loremtext {
+  margin-top: 40px;
+  line-height: 40px;
+}
+.OurStorymainflex p {
+  line-height: 40px;
+}
+
+.prFlex h1 {
+  margin-bottom: 20px;
+}
+p {
+  line-height: 40px;
+}
+.OurStorymainflex {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 30px 0px;
+  gap: 10px;
+}
+.OurStorymainflex > div {
+  width: 640px;
+}
+.OurStorymainflex > div > p {
+  width: 600px;
+}
+.learnhere > ul {
+  margin-top: 20px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 25px;
+}
+.youwillfind {
+  margin-top: 20px;
+}
+.company {
+  background-color: #ededed;
+  height: 232px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 100px;
+}
+
+.feedbackdiv {
+  padding: 0px 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0px;
+}
+.feedbackcontent {
+  width: 679px;
+}
+.feedback span {
+  color: #ffa500;
+}
+.feedbackcontent > p {
+  width: 589px;
+}
+.fitContentDiv {
+  background-color: #ffffff;
+  width: 349px;
+  height: 471px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  gap: 20px;
+  border-radius: 30px;
+}
+
+.bg_main {
+  background-color: #eeeeee;
+  padding: 30px 0px;
+}
+#fitContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 52px;
+  line-height: 50px;
+}
+.imagescontent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+  margin: 70px 0px;
+
+  /* padding-left: 50px; */
+}
+.imagescontent img {
+  width: 100%;
+  /* padding-left: 50px; */
+}
+
+/* ! use */
+.SubscribeFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.SubscribeFlex > input {
+  padding-left: 30px;
+  width: 330px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  height: 78px;
+  border-radius: 8px;
+  /* background-color: #c4c4c4; */
+}
+/* ::placeholder{
+  color: #C4C4C4;
+} */
+.SubscribeFlex > button {
+  width: 201px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 78px;
+  border-radius: 8px;
+  background-color: #112f3e;
+  color: #ffffff;
+}
+
+hr {
+  margin: 20px 0px;
+}
+.JoinUs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.JoinUs > h1 > span {
+  color: #112f3e;
+}
+.BodyFlex > img {
+  width: 149px;
+}
+.BodyFlex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 160px;
+}
+footer {
+  background-color: #6b6a6a;
+  height: 572px;
+  color: #eeeeee;
+}
+button {
+  border-radius: 8px;
+}
+footer > div > div > p {
+  width: 337px;
+}
+.footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 40px 160px;
+
+  margin-bottom: 88px;
+}
+footer a {
+  color: #eeeeee;
+}
+.footer_links > ul,
+.Info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.subFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 160px;
+}
+.iconsocialflex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}

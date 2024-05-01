@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.bg {
+  background-image: url("./Image/bgcontact.png");
+  height: 547px;
+  background-size: cover;
+  padding: 25px 0px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 90px;
+}
+nav > ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  gap: 80px;
+}
+nav > ul > li > a {
+  color: #ffa500;
+}
+.Home {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #112f3e;
+  height: 33px;
+  width: 124px;
+  border-radius: 8px;
+}
+.Home > a {
+  color: #ffffff;
+}
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 160px;
+  color: #ffffff;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px 0px;
+}
+.main-container > h1 {
+  font-weight: 700;
+  font-size: 64px;
+}
+
+/* Container styling for the form */
+.form-container {
+  display: flex; /* Enables flexbox layout */
+  flex-direction: column; /* Stacks child elements vertically */
+  max-width: 600px; /* Sets a maximum width for the form */
+  margin: 0 auto; /* Centers the form horizontally */
+  gap: 10px; /* Adds space between elements */
+}
+
+/* Style each input to fill the available width */
+input,
+textarea,
+button {
+  width: 100%; /* Full width */
+  padding: 10px; /* Padding inside the elements */
+  box-sizing: border-box; /* Border and padding included in width */
+  margin-bottom: 5px; /* Space below each input */
+}
+
+/* Style the button */
+button {
+  background-color: #112f3e;
+  color: white; /* White text */
+  border: none; /* No border */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+  background-color: #0a0c0c;
+}
+
+textarea {
+  width: 863px;
+  height: 212px;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.buttonsubmitmesss {
+  width: 124px;
+  height: 33px;
+  border-radius: 10px;
+  background-color: #112f3e;
+  margin-top: 40px;
+  margin-bottom: 70px;
+  color: #ffffff;
+}
+
+.imagescontent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+  margin: 50px 0px;
+
+  /* padding-left: 50px; */
+}
+.imagescontent img {
+  width: 100%;
+  /* padding-left: 50px; */
+}
+/* ! use */
+.SubscribeFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.SubscribeFlex > input {
+  padding-left: 30px;
+  width: 330px;
+  /* display: flex;
+    align-items: center;
+    justify-content: center; */
+  height: 78px;
+  border-radius: 8px;
+  /* background-color: #c4c4c4; */
+}
+/* ::placeholder{
+    color: #C4C4C4;
+  } */
+.SubscribeFlex > button {
+  width: 201px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 78px;
+  border-radius: 8px;
+  background-color: #112f3e;
+  color: #ffffff;
+}
+
+hr {
+  margin: 20px 0px;
+}
+.JoinUs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.JoinUs > h1 > span {
+  color: #112f3e;
+}
+.BodyFlex > img {
+  width: 149px;
+}
+.BodyFlex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 160px;
+}
+footer {
+  background-color: #6b6a6a;
+  height: 572px;
+  color: #eeeeee;
+}
+button {
+  border-radius: 8px;
+}
+footer > div > div > p {
+  width: 337px;
+}
+.footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 40px 160px;
+
+  margin-bottom: 88px;
+}
+footer a {
+  color: #eeeeee;
+}
+.footer_links > ul,
+.Info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.subFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 160px;
+}
+.iconsocialflex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
